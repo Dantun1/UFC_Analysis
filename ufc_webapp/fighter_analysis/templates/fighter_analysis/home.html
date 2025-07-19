@@ -1,0 +1,34 @@
+{%extends "fighter_analysis/base.html"%}
+
+{%block content%}
+    <main class="container mx-auto px-6 py-24 md:py-32 text-center flex-grow">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-4">
+                Solving<span class="text-red-500"> MMA </span> with data.
+            </h1>
+            <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-8">
+                Welcome to DanT's Corner. Your ultimate destination for UFC fight analysis, and statistical breakdowns.
+            </p>
+            <a href="#" class="inline-block bg-red-600 text-white font-bold text-lg px-8 py-3 rounded-lg shadow-lg hover:bg-red-700 transition-transform transform hover:scale-105 duration-300">
+                Explore Fighters
+            </a>
+        </div>
+        <div class="mt-24 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div class="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700/50 text-left">
+                <h3 class="text-red-500 font-bold text-sm mb-2">STRIKING</h3>
+                <p class="text-2xl font-semibold text-white">4,500+</p>
+                <p class="text-gray-400 text-sm">Active Fighters Tracked</p>
+            </div>
+            <div class="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700/50 text-left">
+                <h3 class="text-blue-500 font-bold text-sm mb-2">GRAPPLING</h3>
+                <p class="text-2xl font-semibold text-white">12,000+</p>
+                <p class="text-gray-400 text-sm">Fights Analyzed</p>
+            </div>
+            <div class="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700/50 text-left">
+                <h3 class="text-green-500 font-bold text-sm mb-2">PERFORMANCE</h3>
+                <p class="text-2xl font-semibold text-white">99.9%</p>
+                <p class="text-gray-400 text-sm">Data Accuracy</p>
+            </div>
+        </div>
+    </main>
+{%endblock content%}
