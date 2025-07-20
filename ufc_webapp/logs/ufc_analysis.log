@@ -1,0 +1,165 @@
+WARNING - 2025-07-20 12:54:57,942 - log - 42451 - 6178549760 - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING - 2025-07-20 12:55:33,272 - log - 42451 - 6178549760 - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING - 2025-07-20 12:55:51,637 - log - 42451 - 6178549760 - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING - 2025-07-20 12:56:06,944 - log - 42451 - 6178549760 - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING - 2025-07-20 13:02:08,839 - log - 42451 - 6178549760 - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING - 2025-07-20 13:04:20,976 - log - 42451 - 6178549760 - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING - 2025-07-20 13:06:13,198 - log - 42451 - 6178549760 - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+ERROR - 2025-07-20 13:27:33,113 - log - 42451 - 6128070656 - Internal Server Error: /fighters
+Traceback (most recent call last):
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'search_fighter' not found. 'search_fighter' is not a valid view function or pattern name.
+ERROR - 2025-07-20 13:57:50,462 - log - 43253 - 6242676736 - Internal Server Error: /fighters
+Traceback (most recent call last):
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+WARNING - 2025-07-20 13:58:40,320 - log - 43282 - 6246969344 - Not Found: /fighter
+WARNING - 2025-07-20 13:59:23,567 - log - 43282 - 6246969344 - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING - 2025-07-20 13:59:26,817 - log - 43282 - 6246969344 - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING - 2025-07-20 14:01:02,724 - log - 43282 - 6246969344 - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING - 2025-07-20 14:02:02,411 - log - 43282 - 6246969344 - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING - 2025-07-20 14:05:37,858 - log - 43282 - 6246969344 - Not Found: /fighter
+ERROR - 2025-07-20 14:43:31,720 - log - 43721 - 6218313728 - Internal Server Error: /search
+Traceback (most recent call last):
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/ufc_webapp/fighter_analysis/views.py", line 39, in get
+    return redirect(f"fighter_overview", pk = fighter.pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/shortcuts.py", line 41, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/shortcuts.py", line 131, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danieltunyan/Desktop/Cool shit/Pet Projects/UFC_Analysis/.venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'fighter_overview' not found. 'fighter_overview' is not a valid view function or pattern name.
+WARNING - 2025-07-20 14:45:34,383 - log - 43798 - 6218051584 - Not Found: /fighters/fighters
+WARNING - 2025-07-20 14:46:02,232 - log - 43798 - 6218051584 - Not Found: /fighters/fighters
+WARNING - 2025-07-20 14:46:06,053 - log - 43798 - 6218051584 - Not Found: /fighters/fighters
+WARNING - 2025-07-20 14:50:35,998 - log - 43798 - 6218051584 - Not Found: /events
+WARNING - 2025-07-20 14:52:57,850 - log - 43798 - 6218051584 - Not Found: /fighter
